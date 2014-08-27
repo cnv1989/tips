@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showTipView(sender: AnyObject) {
+        performSegueWithIdentifier("initialSegue", sender: self)
+    }
 }
 

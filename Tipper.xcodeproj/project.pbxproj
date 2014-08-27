@@ -12,6 +12,9 @@
 		1456B5BF19AAE94B002DE7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1456B5BD19AAE94B002DE7AF /* Main.storyboard */; };
 		1456B5C119AAE94B002DE7AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1456B5C019AAE94B002DE7AF /* Images.xcassets */; };
 		1456B5CD19AAE94B002DE7AF /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456B5CC19AAE94B002DE7AF /* TipperTests.swift */; };
+		1456B5D719AAEAD0002DE7AF /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456B5D619AAEAD0002DE7AF /* TipsViewController.swift */; };
+		1456B5DB19AAF314002DE7AF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456B5DA19AAF314002DE7AF /* SettingsViewController.swift */; };
+		1456B5DE19AB0854002DE7AF /* BillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456B5DD19AB0854002DE7AF /* BillManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		1456B5C619AAE94B002DE7AF /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1456B5CB19AAE94B002DE7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1456B5CC19AAE94B002DE7AF /* TipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperTests.swift; sourceTree = "<group>"; };
+		1456B5D619AAEAD0002DE7AF /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		1456B5DA19AAF314002DE7AF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1456B5DD19AB0854002DE7AF /* BillManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +81,13 @@
 		1456B5B619AAE94B002DE7AF /* Tipper */ = {
 			isa = PBXGroup;
 			children = (
+				1456B5DC19AAF76A002DE7AF /* TipperViewControllers */,
 				1456B5B919AAE94B002DE7AF /* AppDelegate.swift */,
 				1456B5BB19AAE94B002DE7AF /* ViewController.swift */,
 				1456B5BD19AAE94B002DE7AF /* Main.storyboard */,
 				1456B5C019AAE94B002DE7AF /* Images.xcassets */,
 				1456B5B719AAE94B002DE7AF /* Supporting Files */,
+				1456B5DD19AB0854002DE7AF /* BillManager.swift */,
 			);
 			path = Tipper;
 			sourceTree = "<group>";
@@ -107,6 +115,15 @@
 				1456B5CB19AAE94B002DE7AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1456B5DC19AAF76A002DE7AF /* TipperViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1456B5D619AAEAD0002DE7AF /* TipsViewController.swift */,
+				1456B5DA19AAF314002DE7AF /* SettingsViewController.swift */,
+			);
+			name = TipperViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +227,9 @@
 			files = (
 				1456B5BC19AAE94B002DE7AF /* ViewController.swift in Sources */,
 				1456B5BA19AAE94B002DE7AF /* AppDelegate.swift in Sources */,
+				1456B5DB19AAF314002DE7AF /* SettingsViewController.swift in Sources */,
+				1456B5DE19AB0854002DE7AF /* BillManager.swift in Sources */,
+				1456B5D719AAEAD0002DE7AF /* TipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +415,7 @@
 				1456B5D219AAE94B002DE7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1456B5D319AAE94B002DE7AF /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +424,7 @@
 				1456B5D519AAE94B002DE7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
